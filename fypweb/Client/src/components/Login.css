@@ -1,0 +1,58 @@
+.main{
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+h3{
+    color: #7b09b2;
+    text-align: center;
+}
+
+.forget-password{
+    text-align: right;
+    color: #7b09b2;
+    width: 100%;
+    transition: .4s all;
+}
+
+.forget-password:hover{
+    text-align: right;
+    color: #7b09b2;
+    width: 100%;
+    cursor: pointer;
+    color: #a943d4;
+    text-decoration: underline;
+    transform: translateY(-1px);
+}
+
+.login-button{
+    background-color: #7b09b2;
+    width: 80%;
+    text-align: center;
+    transition: .4s all;
+    border: none;
+}
+
+.login-button:hover{
+    background-color: #a943d4;
+    transform: translateY(-5px);
+}
+
+.check{
+    color: #7b09b2;
+}
+
+.link{
+    color: #7b09b2;
+    transition: .4s all;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: #a943d4;
+    text-decoration: underline;
+}

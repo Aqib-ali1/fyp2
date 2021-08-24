@@ -1,0 +1,42 @@
+
+
+.standard-card{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 3px 2px 5px rgb(192, 192, 192);
+    transition: .5s all;
+}
+
+.standard-card:hover{
+    transform: translateY(-12px);
+}
+
+.card-title{
+    color: #7b09b2;
+    font-size: 25px;
+}
+
+.currency{
+    font-size: 30px;
+}
+
+.card-pricing{
+    color: black;
+    font-size: 25px;
+}
+
+.buy-button{
+    width: 60%;
+    background-color: #7b09b2;
+    border: none;
+    transition: .6s all;
+    border-radius: 15px;
+}
+
+.buy-button:hover{
+    width: 85%;
+    background-color: #a943d4;
+    border: none;
+}
